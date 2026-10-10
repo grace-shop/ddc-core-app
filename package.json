@@ -1,0 +1,57 @@
+{
+  "name": "ddc-core",
+  "productName": "Laméssin",
+  "version": "6.0.54",
+  "description": "Laméssin — assistant de premiers soins : web, Android et ordinateur",
+  "main": "desktop/main.js",
+  "author": "grace-shop",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "web": "npx --yes serve www",
+    "desktop": "electron .",
+    "dist:desktop": "electron-builder --publish never",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^33.0.0",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.ddccore.app",
+    "productName": "Laméssin",
+    "files": [
+      "desktop/**",
+      "www/**",
+      "package.json",
+      "!www/vendor/**"
+    ],
+    "directories": {
+      "output": "dist"
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "www/icons/icon.ico",
+      "artifactName": "DDC-Core-Setup.${ext}"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "shortcutName": "Laméssin"
+    },
+    "linux": {
+      "target": "AppImage",
+      "icon": "www/icons/icon-512.png",
+      "category": "MedicalSoftware",
+      "artifactName": "DDC-Core.${ext}"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "www/icons/icon-1024.png",
+      "category": "public.app-category.medical",
+      "artifactName": "DDC-Core.${ext}"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "code": 54,
+  "version": "6.0.54",
+  "date": "2026-10-10T12:30:51.162Z",
+  "notes": [
+    "Nouveau nom : Laméssin, avec un nouveau logo 3D",
+    "Le corps a sa propre page, le tableau de bord aussi (onglet Tableau)",
+    "Chaque outil n'apparaît plus qu'à un seul endroit",
+    "Quand le Docteur en ligne est occupé, l'appli réessaie puis t'aide sans internet",
+    "Le mode sans internet comprend les fautes (« nausé », « diarhée »…)",
+    "Correction : la page Résumé santé pouvait planter"
+  ],
+  "apk": "https://grace-shop.github.io/ddc-core-app/DDC-Core.apk",
+  "win": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.54/DDC-Core-Setup.exe",
+  "mac": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.54/DDC-Core.dmg",
+  "linux": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.54/DDC-Core.AppImage",
+  "release": "https://github.com/grace-shop/ddc-core-app/releases/latest"
+}
