@@ -1,0 +1,14 @@
+{
+  "code": 55,
+  "version": "6.0.55",
+  "date": "2026-10-10T12:52:17.089Z",
+  "notes": [
+    "Correction : si ta clé IA personnelle n'a plus de crédit, le Docteur passe tout seul au serveur Laméssin",
+    "Message plus clair quand le Docteur en ligne ne répond pas"
+  ],
+  "apk": "https://grace-shop.github.io/ddc-core-app/DDC-Core.apk",
+  "win": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.55/DDC-Core-Setup.exe",
+  "mac": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.55/DDC-Core.dmg",
+  "linux": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.55/DDC-Core.AppImage",
+  "release": "https://github.com/grace-shop/ddc-core-app/releases/latest"
+}
