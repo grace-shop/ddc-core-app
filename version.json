@@ -1,0 +1,16 @@
+{
+  "code": 56,
+  "version": "6.0.56",
+  "date": "2026-10-10T13:17:51.950Z",
+  "notes": [
+    "La mise à jour te sera proposée toute seule à l'ouverture de l'application",
+    "Le corps s'ouvre directement sur « Organes »",
+    "Plus d'anneau autour des jambes",
+    "Bouton « Réglages » bien visible dans le tableau de bord"
+  ],
+  "apk": "https://grace-shop.github.io/ddc-core-app/DDC-Core.apk",
+  "win": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.56/DDC-Core-Setup.exe",
+  "mac": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.56/DDC-Core.dmg",
+  "linux": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.56/DDC-Core.AppImage",
+  "release": "https://github.com/grace-shop/ddc-core-app/releases/latest"
+}
