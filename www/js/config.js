@@ -1,0 +1,1 @@
+export const DDC_SERVER={url:"https://vcarrnmmdvmssrpbvnit.supabase.co/functions/v1/docteur",anonKey:""},CONTACTS=[{role:"Infirmi\xE8re dipl\xF4m\xE9e d'\xC9tat",phone:"22890948111",shown:"+228 90 94 81 11"},{role:"M\xE9decin g\xE9n\xE9raliste",phone:"22890252249",shown:"+228 90 25 22 49"}],ROUTING={orsKey:""};
