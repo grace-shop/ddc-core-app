@@ -1,0 +1,19 @@
+{
+  "code": 172,
+  "version": "6.0.172",
+  "date": "2026-10-28T05:09:17.493Z",
+  "notes": [
+    "« Mes règles » quitte la barre : il est dans la nouvelle page « Ma santé »",
+    "Espace professionnel : médecins et infirmiers s'inscrivent, l'équipe accepte ou refuse",
+    "Écrire au médecin : envoie un message, reçois la réponse dans l'appli",
+    "Son et notification à chaque nouvelle demande, nouveau message ou réponse",
+    "« Gestes qui sauvent » retirés de la page SOS (ils restent dans Secours)",
+    "« Docteur généraliste » devient « médecin généraliste »",
+    "Correction : « undefined kg » remplacé par « poids non noté »"
+  ],
+  "apk": "https://grace-shop.github.io/ddc-core-app/DDC-Core.apk",
+  "win": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.172/DDC-Core-Setup.exe",
+  "mac": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.172/DDC-Core.dmg",
+  "linux": "https://github.com/grace-shop/ddc-core-app/releases/download/v6.0.172/DDC-Core.AppImage",
+  "release": "https://github.com/grace-shop/ddc-core-app/releases/latest"
+}
